@@ -84,7 +84,7 @@ $(document).ready(function() {
                         data_show_main_assessment+="</div>"
                       }
                     });
-                    data_show_main_assessment+="<label class='col-sm-1 col-form-label text-right'>"+'total:'+":</label>"
+                    data_show_main_assessment+="<label class='col-sm-1 col-form-label text-right'>"+'total:'+"</label>"
                     data_show_main_assessment+="<div class='col-sm-1'>"
                     data_show_main_assessment+="  <input type='text'  class='form-control' id='score_le' value='"+parseInt(value_main_assessment.total_score)+"' disabled='disabled'>"
                     data_show_main_assessment+="</div>"
